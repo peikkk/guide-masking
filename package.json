@@ -1,0 +1,15 @@
+{
+  "name": "guide-masking",
+  "version": "0.0.0",
+  "description": "web页面引导蒙板",
+  "devDependencies": {
+    "uglify-js": "^2.4.15",
+    "jdists": "^1.3.3"
+  },
+  "dependencies": {},
+  "scripts": {
+    "_dist": "jdists src/guide-masking.js -o guide-masking.js",
+    "_compress": "uglifyjs guide-masking.js -o guide-masking.min.js -p 5 -c -m",
+    "dist": "npm run _dist && npm run _compress"
+  }
+}

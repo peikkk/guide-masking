@@ -1,0 +1,33 @@
+{
+  "name": "guide-masking",
+  "version": "0.0.0",
+  "homepage": "https://github.com/peter006qi/guide-masking",
+  "authors": [
+    {
+      "name": "peter006_qi",
+      "url": "http://weibo.com/peter006_qi"
+    }
+  ],
+  "description": "web页面引导蒙板",
+  "main": "guide-masking.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "maskingGuide"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "ignore": [
+    "tests",
+    "src",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ]
+}
